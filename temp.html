@@ -14,9 +14,9 @@
 </head>
 <body>
     <!--Navbar adjustments-->
-    <div class="container">
+    
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
+            <a class="navbar-brand text-white" style="background-color: #0BADA6;" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,43 +43,47 @@
                 </ul>
             </div>
          </nav>
-    </div>  
+     
     <!--Left Box-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">
+        <section class="row">
+            <!-- left Box -->
+            <div class="col-lg-7">
+            <div class="Leftbox"> 
                     <h3>Max Temperature</h3>
                     <hr>
-                    <img style= "float:left; width:25%; height:55%" src="Visualizations/Resources/assets/images/Fig1.png" width="100%" alt="Max Temperature">
+                    <img style= "float:left; width:50%; height:55%" src="Visualizations/Resources/assets/images/Fig1.png" >
                     <br>
                     <p>As expected, the weather becomes significantaly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered. </p>
-                
+            </div>    
             </div>
             <!--Right Box-->
-            <div class="col-md-4 ">
-                <h3 class="title">Visualizations</h3>
-                <hr>
-                <div class="row">
-                    <div class="col-md-6">
-                        <a href="temp.html"><img style= "float:right; width:120%; height:120%" src="Visualizations/Resources/assets/images/Fig1.png"  alt="Max Temperature">
-                        </a> 
+            <div class="col-lg-5" >
+                <div class="Rightbox">
+                    <h3 class="title">Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="temp.html"><img style= "float:right; width:100%; height:100%" src="Visualizations/Resources/assets/images/Fig1.png"  alt="Max Temperature">
+                            </a> 
+                        </div>
+                        <div class="col-md-6">
+                            <a href="humidity.html"><img style= "float:right; width:100%; height:100%" src="Visualizations/Resources/assets/images/Fig2.png"  alt="Humidity"></a>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <a href="humidity.html"><img style= "float:right; width:120%; height:120%" src="Visualizations/Resources/assets/images/Fig2.png"  alt="Humidity"></a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="cloudiness.html"><img style= "float:right; width:100%; height:100%" src="Visualizations/Resources/assets/images/Fig3.png"  alt="Cloudiness"></a>
+                        </div>
+    
+                        <div class="col-md-6">
+                            <a href="windspeed.html"><img style= "float:right; width:100%; height:100%" src="Visualizations/Resources/assets/images/Fig4.png" alt="Wind Speed"></a>
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <a href="cloudiness.html"><img style= "float:right; width:120%; height:120%" src="Visualizations/Resources/assets/images/Fig3.png"  alt="Cloudiness"></a>
-                    </div>
-
-                    <div class="col-md-6">
-                        <a href="windspeed.html"><img style= "float:right; width:120%; height:120%" src="Visualizations/Resources/assets/images/Fig4.png" alt="Wind Speed"></a>
-                    </div>
-                    
-                </div>
-            </div>           
-        </div>    
+                </div>               
+        </section>    
     </div>
 </body>
 </html>

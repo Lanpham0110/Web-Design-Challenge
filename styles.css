@@ -1,20 +1,10 @@
-img {
-  width: 30px;
-  height: 30px;
-}
-  
-
-
-  
 h3{
-  font-size: 50px;
-  font-weight: bold;
-  text-align: Left;
+  color: rgb(81, 175, 160);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #0BADA6;
-  /* padding: 30px; */
-}
-  
+  padding: 15px;
+  font-weight: bold;
+  font-size: 30px;
+} 
 p{
   color: #6D8092;
   text-align:left;
@@ -25,7 +15,6 @@ p{
 .navbar{
   position: left;
   background-color: white;
-  right: 30px;
   font-family: 'Times New Roman', Times, serif;
 }
   
@@ -38,56 +27,42 @@ a.navbar-brand{
   font-size: 25px;
   font-weight: bold;
 }
-
-.nav-link{
-  background-color:#E7E7E7;
- }
   
 body {
-  width: 100%;
-  min-height:100%;
+  margin-bottom:150px;
   background-color: rgb(223, 222, 222);
 }
-  
   .col {
     width: 100%;
     } 
 
-  .col-md-8{
+  .Leftbox{
     background-color: white;
-    padding-top: 20px;
-    padding-bottom:40px;
+    margin-top:32px;
+    padding: 30px;
+   
   }
-  h3{
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #0BADA6;
-    padding: 15px;
+
+  .Rightbox{
+    background-color: white;
+    margin-top:32px;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+
+  .box{
+    background-color: white;
+    margin-top:20px;
+    padding: 30px;
+  }
+
+  .Bigbox{
+    margin:20px;
+    padding: 20px;
   }
 
 .dropdown-menu {
   margin: 0;
 }
-#Pictures {
-  width: 50%;
-  height: 50%;
-}
+
   
-.Right_Box {
-  margin-top: 60px; 
-  margin-bottom: 62px; 
-  padding: 10px 20px 15px; 
-  color:black;
-  background-color: white; 
-}
-
-.Left_Box {
-  margin-top: 60px; 
-  margin-bottom: 62px; 
-  padding: 10px 20px 15px; 
-  color:black;
-  background-color: white; 
-
-}
